@@ -9,7 +9,7 @@ import ChatbotComponent from "./Chatbot";
 import ChatBot from "react-chatbotify";
 import SehpaathiBot from "./Chatbot";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com";
 
 // Interview card data - now used for sidebar navigation
 const navItems = [
