@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Search, Briefcase, Filter, MapPin, Calendar, ChevronRight } from "lucide-react";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com";
 
 const JobSeekerPage = () => {
   const [jobs, setJobs] = useState([]);
