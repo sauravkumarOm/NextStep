@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import Sidebar from '../Components/Sidebar';
 import axios from 'axios';
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com";
 
 const getDomain = (url) => {
   try {
