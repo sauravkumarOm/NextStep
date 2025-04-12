@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const BACKEND_URL = "http://localhost:3000"; 
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com"; 
 
 
 const LoginRegister = ({ onLoginSuccess }) => {
