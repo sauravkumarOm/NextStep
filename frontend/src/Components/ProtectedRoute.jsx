@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:3000"; // Replace with your backend URL
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com"; // Replace with your backend URL
 
 const ProtectedRoute = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(null);
