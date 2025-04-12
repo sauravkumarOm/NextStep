@@ -21,7 +21,7 @@ import {
   XMarkIcon
 } from '@heroicons/react/24/outline';
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://nextstep-mb2t.onrender.com";
 
 const UserProfile = () => {
   const [user, setUser] = useState({});
